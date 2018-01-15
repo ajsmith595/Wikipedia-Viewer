@@ -1,19 +1,126 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="jquery.min.js"></script>
     <script src="jquery-color-animation.js"></script>
     <script src="main.js"></script>
     <title>Wikipedia Viewer!</title>
 </head>
 <body>
-    <div class="jumbotron">
+    <div class="jumbotron mainjumbo">
         <h1 class="text-center">WIKIPEDIA VIEWER</h1>
-
+        <h3 class="text-center">MADE BY <a href="ajsmith.github.io/Porfolio">ADAM SMITH</a></h3>
+        <br>
+        <div class="text-center">
+            <button class="btn btn-default" onclick="openInNewTab('https://en.wikipedia.org/wiki/Special:Random');">RANDOM ARTICLE</button>
+        </div>
+        <br>
+        <div class="text-center">
+            <div class="inline-block">
+                <input type="text" placeholder="SEARCH FOR ARTICLE...">
+            </div>
+            <br>
+            <div class="inline-block">
+                <button class="finishsearchbtn btn btn-default" style="font-family: Roadway; font-size: 200% !important;">SEARCH <i class="fa fa-search" style=""></i></button>
+            </div>
+        </div>
     </div>
 
+    <div class="jumbotron results-jumbo">
+        <div class="text-center">
+            <div class="search-result-mast" id="sr1">
+                <a href="">
+                    <div class="search-result">
+                            <h2></h2>
+                            <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="search-result-mast" id="sr2">
+                <a href="">
+                    <div class="search-result">
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="search-result-mast" id="sr3">
+                <a href="">
+                    <div class="search-result">
+                            <h2></h2>
+                            <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="search-result-mast" id="sr4">
+                <a href="">
+                    <div class="search-result">
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="search-result-mast" id="sr5">
+                <a href="">
+                    <div class="search-result">
+                            <h2></h2>
+                            <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="search-result-mast" id="sr6">
+                <a href="">
+                    <div class="search-result">
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="search-result-mast" id="sr7">
+                <a href="">
+                    <div class="search-result">
+                            <h2></h2>
+                            <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="search-result-mast" id="sr8">
+                <a href="">
+                    <div class="search-result" >
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="search-result-mast" id="sr9">
+                <a href="">
+                    <div class="search-result">
+                            <h2></h2>
+                            <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="search-result-mast" id="sr10">
+                <a href="">
+                    <div class="search-result">
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

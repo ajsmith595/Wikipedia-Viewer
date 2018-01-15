@@ -3,6 +3,55 @@
     font-family: Roadway;
 }
 
-.jumbotron h1{
+.jumbotron h1, .jumbotron h2, .jumbotron h3, button, input{
     font-family: Roadway;
+}
+
+button{
+    font-size: 200% !important;
+    font-variant: small-caps;
+    transition: background-color .1s linear;
+
+}
+
+button:focus{
+    outline: 0 !important;
+}
+input{
+    font-size: 200% !important;
+    font-variant: small-caps;
+    border: rgba(0,0,0,0) 1px solid;
+    border-radius: 5px;
+    transition: border .1s linear;
+}
+input:focus{
+    outline: 0 !important;
+    border: 1px #08DB72 solid;
+}
+.inline-block{
+    display: inline-block;
+}
+
+.mainjumbo{
+    background-color: #2D8CEB;
+    margin-bottom: 0;
+}
+
+
+.results-jumbo{
+    margin-top: 0;
+    display: none;
+}
+
+.search-result-mast{
+    width: 35%;
+    display: inline-block;
+}
+
+.search-result h2, .search-result p{
+    text-align: left;
+}
+
+.finishsearchbtn{
+    padding: 1px 8px !important;
 }
